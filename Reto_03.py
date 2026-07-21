@@ -4,3 +4,13 @@
  * - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
  */"""
 
+cadena = input("Ingresa una cadena de texto: ")
+
+
+for letra in cadena:
+    str = [letra]    
+    
+    print(str)    
+    
+
+
