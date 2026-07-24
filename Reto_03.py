@@ -6,11 +6,12 @@
 
 cadena = input("Ingresa una cadena de texto: ")
 
+def invertirTexto(cadena):
 
-for letra in cadena:
-    str = [letra]    
-    
-    print(str)    
-    
+    resultado = ''
 
+    for letra in cadena:
+        resultado = letra + resultado
+    return resultado
 
+print(invertirTexto(cadena))
