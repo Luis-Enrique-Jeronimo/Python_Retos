@@ -21,6 +21,7 @@ def convertidor_binario():
         residuo = dividendo % 2
 
         print(cociente)
+        
         print(residuo)
 
 
