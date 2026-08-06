@@ -3,7 +3,7 @@
  * Hecho esto, imprime los números primos entre 1 y 100.
  */"""
 
-num1 = int(input("INGRESA UN NÚMERO: "))
+
 
 def primos(num1):
     for n in range(2,num1):
@@ -13,6 +13,7 @@ def primos(num1):
     print("Es primo")
     return True
 
-
-
-primos(num1)
+for i in range(100):
+    i+=1
+    print(i)
+    primos(i)
