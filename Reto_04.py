@@ -3,14 +3,16 @@
  * Hecho esto, imprime los números primos entre 1 y 100.
  */"""
 
-num1 = input("Ingresa un número: ")
+num1 = int(input("INGRESA UN NÚMERO: "))
 
-def primos():
-    resultado = l
+def primos(num1):
+    for n in range(2,num1):
+        if num1 % n == 0:
+            print("No es primo", n, "es divisor")
+            return False
+    print("Es primo")
+    return True
 
-    if :
-        print("Es Primo")
-    else:
-        print("Es N")
-    l
 
+
+primos(num1)
